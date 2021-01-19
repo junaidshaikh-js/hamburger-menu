@@ -30,13 +30,14 @@ h1{
 
 /* Style hamburger */
 .hamburger{
-  margin-top: -2.1rem;
+    margin-top: -2.1rem;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    user-select: none;
 }
 
 /* make lines */
